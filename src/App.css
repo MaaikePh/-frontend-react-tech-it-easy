@@ -1,0 +1,45 @@
+.sellOverview {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.soldItems {
+    color: #2c9d8f;
+    background-color: #edf9f7;
+    border: #99d1c9 solid 0.1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+.boughtItems {
+    color: #468299;
+    background-color: #eff4f7;
+    border: #5a8ea3 solid 0.1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+.ToSellItems {
+    color: #e04e2b;
+    background-color: #fbeeea;
+    border: #e4603f solid 0.1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
