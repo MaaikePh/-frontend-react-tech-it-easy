@@ -1,8 +1,12 @@
+.app {
+    margin: 1rem;
+}
+
 .sellOverview {
     display: flex;
     gap: 2rem;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .soldItems {
@@ -15,7 +19,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3rem;
+    padding: 6rem;
 }
 
 .boughtItems {
@@ -28,7 +32,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3rem;
+    padding: 6rem;
 }
 
 .ToSellItems {
@@ -41,5 +45,31 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3rem;
+    padding: 6rem;
+}
+
+.bestSellingTv {
+    display: flex;
+    flex-direction: row;
+    background-color: #ebebeb;
+    border: #7c7c7c dashed 0.1rem;
+    border-radius: 0.3rem;
+    padding: 2rem;
+}
+
+.bestSellingTvInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.sortedButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+button {
+    padding: 0 0.3rem;
 }
