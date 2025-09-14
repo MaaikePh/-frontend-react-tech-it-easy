@@ -73,3 +73,56 @@
 button {
     padding: 0 0.3rem;
 }
+
+ul {
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.all-tvs {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 0.625rem
+}
+
+.tv-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 0.625rem;
+}
+
+.tv-card img {
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+}
+
+.tv-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.tv-info h2 {
+    margin: 0 0 0.3125rem 0;
+}
+
+.tv-info p {
+    margin: 0.125rem 0;
+}
+
+.tv-info ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.tv-info ul li img {
+    margin-right: 0.5rem;
+}
