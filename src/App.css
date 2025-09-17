@@ -1,0 +1,156 @@
+h1 {
+    margin: 3rem 0;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+.app {
+    margin: 1rem 2.5rem;
+}
+
+.sell-overview {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sell-overview p {
+    margin: 0.6rem 0;
+}
+
+.number-of-sold-items {
+    font-size: 2rem;
+}
+
+.sold-items {
+    font-size: 1.5rem;
+    color: #2c9d8f;
+    background-color: #edf9f7;
+    border: #99d1c9 solid 0.1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.bought-items {
+    font-size: 1.5rem;
+    color: #468299;
+    background-color: #eff4f7;
+    border: #5a8ea3 solid 0.1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.to-sell-items {
+    font-size: 1.5rem;
+    color: #e04e2b;
+    background-color: #fbeeea;
+    border: #e4603f solid 0.1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.best-selling-tv {
+    display: flex;
+    flex-direction: row;
+    background-color: #ebebeb;
+    border: #7c7c7c dashed 0.1rem;
+    border-radius: 0.3rem;
+    padding: 2rem;
+}
+
+.best-selling-tv-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+
+.price-tv {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.screen-size-tv {
+    margin-bottom: 0.6rem;
+}
+
+.sorted-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+button {
+    padding: 0.1rem 0.3rem;
+}
+
+ul {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.all-tvs {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 0.625rem
+}
+
+.tv-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 0.625rem;
+}
+
+.tv-card img {
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+}
+
+.tv-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    flex: 1;
+}
+
+.tv-info h2 {
+    margin: 0 0 0.3125rem 0;
+}
+
+.tv-info p {
+    margin: 0.125rem 0;
+}
+
+.tv-info ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.tv-info ul li img {
+    margin-right: 0.5rem;
+}
