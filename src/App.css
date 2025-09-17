@@ -1,15 +1,32 @@
-.app {
-    margin: 1rem;
+h1 {
+    margin: 3rem 0;
 }
 
-.sellOverview {
+h2 {
+    margin: 1rem 0;
+}
+
+.app {
+    margin: 1rem 2.5rem;
+}
+
+.sell-overview {
     display: flex;
     gap: 2rem;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.soldItems {
+.sell-overview p {
+    margin: 0.6rem 0;
+}
+
+.number-of-sold-items {
+    font-size: 2rem;
+}
+
+.sold-items {
+    font-size: 1.5rem;
     color: #2c9d8f;
     background-color: #edf9f7;
     border: #99d1c9 solid 0.1rem;
@@ -19,10 +36,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 6rem;
+    padding: 5rem;
 }
 
-.boughtItems {
+.bought-items {
+    font-size: 1.5rem;
     color: #468299;
     background-color: #eff4f7;
     border: #5a8ea3 solid 0.1rem;
@@ -32,10 +50,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 6rem;
+    padding: 5rem;
 }
 
-.ToSellItems {
+.to-sell-items {
+    font-size: 1.5rem;
     color: #e04e2b;
     background-color: #fbeeea;
     border: #e4603f solid 0.1rem;
@@ -45,10 +64,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 6rem;
+    padding: 5rem;
 }
 
-.bestSellingTv {
+.best-selling-tv {
     display: flex;
     flex-direction: row;
     background-color: #ebebeb;
@@ -57,25 +76,34 @@
     padding: 2rem;
 }
 
-.bestSellingTvInfo {
+.best-selling-tv-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 2rem;
+    justify-content: space-between;
+    padding-left: 3rem;
 }
 
-.sortedButtons {
+.price-tv {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.screen-size-tv {
+    margin-bottom: 0.6rem;
+}
+
+.sorted-buttons {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
 }
 
 button {
-    padding: 0 0.3rem;
+    padding: 0.1rem 0.3rem;
 }
 
 ul {
-    margin: 1rem;
+    margin: 1rem 0;
     display: flex;
     gap: 1rem;
     list-style: none;
@@ -105,7 +133,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 1rem;
     flex: 1;
 }
 
